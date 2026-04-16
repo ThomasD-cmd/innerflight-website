@@ -1,3 +1,18 @@
+export default function Home() {
+  return (
+    <main>
+      ...
+    </main>
+  );
+}
+
+
+
+
+
+
+
+
 <img
   src="/logo.png"
   alt="Innerflight Logo"
