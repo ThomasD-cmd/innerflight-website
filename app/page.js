@@ -1,14 +1,47 @@
-
-export default function Home() {
-  return (
-    <main
+<main
+  style={{
+    fontFamily: "Arial, sans-serif",
+    color: "#111",
+    backgroundColor: "#f7f7f5",
+  }}
+>
+  <div
+    style={{
+      backgroundColor: "#ffffff",
+      borderBottom: "1px solid #e5e7eb",
+      padding: "14px 24px",
+    }}
+  >
+    <div
       style={{
-        fontFamily: "Arial, sans-serif",
-        color: "#111",
-        backgroundColor: "#f7f7f5",
+        maxWidth: "1100px",
+        margin: "0 auto",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
       }}
     >
-      <section
+      <img
+        src="/logo.png"
+        alt="Innerflight Logo"
+        style={{
+          height: "52px",
+          objectFit: "contain",
+        }}
+      />
+
+      <div style={{ display: "flex", gap: "20px", fontSize: "14px" }}>
+        <a href="#services" style={{ color: "#111", textDecoration: "none" }}>
+          Services
+        </a>
+        <a href="#contact" style={{ color: "#111", textDecoration: "none" }}>
+          Contact
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <section
         style={{
           background: "linear-gradient(135deg, #0f172a 0%, #1f2937 100%)",
           color: "white",
