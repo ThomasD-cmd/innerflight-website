@@ -1,63 +1,49 @@
 export default function Home() {
   return (
-    <main>
-      ...
-    </main>
-  );
-}
-
-<img
-  src="/logo.png"
-  alt="Innerflight Logo"
-  style={{
-    height: "52px",
-    objectFit: "contain",
-  }}
-/>
-<main
-  style={{
-    fontFamily: "Arial, sans-serif",
-    color: "#111",
-    backgroundColor: "#f7f7f5",
-  }}
->
-  <div
-    style={{
-      backgroundColor: "#ffffff",
-      borderBottom: "1px solid #e5e7eb",
-      padding: "14px 24px",
-    }}
-  >
-    <div
+    <main
       style={{
-        maxWidth: "1100px",
-        margin: "0 auto",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
+        fontFamily: "Arial, sans-serif",
+        color: "#111",
+        backgroundColor: "#f7f7f5",
       }}
     >
-      <img
-        src="/logo.png"
-        alt="Innerflight Logo"
+      <div
         style={{
-          height: "52px",
-          objectFit: "contain",
+          backgroundColor: "#ffffff",
+          borderBottom: "1px solid #e5e7eb",
+          padding: "14px 24px",
         }}
-      />
+      >
+        <div
+          style={{
+            maxWidth: "1100px",
+            margin: "0 auto",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <img
+            src="/logo.png"
+            alt="Innerflight Logo"
+            style={{
+              height: "52px",
+              objectFit: "contain",
+            }}
+          />
 
-      <div style={{ display: "flex", gap: "20px", fontSize: "14px" }}>
-        <a href="#services" style={{ color: "#111", textDecoration: "none" }}>
-          Services
-        </a>
-        <a href="#contact" style={{ color: "#111", textDecoration: "none" }}>
-          Contact
-        </a>
+          <div style={{ display: "flex", gap: "20px", fontSize: "14px" }}>
+            <a href="#services" style={{ color: "#111", textDecoration: "none" }}>
+              Services
+            </a>
+            <a href="#contact" style={{ color: "#111", textDecoration: "none" }}>
+              Contact
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <section
+      <section
         style={{
           background: "linear-gradient(135deg, #0f172a 0%, #1f2937 100%)",
           color: "white",
