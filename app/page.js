@@ -1,3 +1,11 @@
+<img
+  src="/logo.png"
+  alt="Innerflight Logo"
+  style={{
+    height: "52px",
+    objectFit: "contain",
+  }}
+/>
 <main
   style={{
     fontFamily: "Arial, sans-serif",
