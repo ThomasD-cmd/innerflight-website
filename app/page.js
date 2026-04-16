@@ -1,8 +1,12 @@
 <div
   style={{
-    backgroundColor: "#ffffff",
+    backgroundColor: "rgba(255,255,255,0.95)",
     borderBottom: "1px solid #e5e7eb",
     padding: "14px 24px",
+    position: "sticky",
+    top: 0,
+    zIndex: 1000,
+    backdropFilter: "blur(8px)",
   }}
 >
   <div
