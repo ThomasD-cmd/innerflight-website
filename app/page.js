@@ -6,13 +6,6 @@ export default function Home() {
   );
 }
 
-
-
-
-
-
-
-
 <img
   src="/logo.png"
   alt="Innerflight Logo"
